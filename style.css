@@ -1,0 +1,58 @@
+@import 'fonts.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header {
+    background: url(../images/back.jpg) 50% 50% / cover;
+    height: 300px;
+}
+
+.container{
+    justify-content: center;
+    padding-top: 180px;
+    text-align: center;
+}
+.reviews-box_image img{
+    width: 80%;
+}
+.reviews-box_image h2{
+    color: black;
+}
+.phone{
+    background: #011556;
+    color: #fff;
+    font-size: 15px;
+    line-height: 11px;
+    border-radius: 40px;
+    padding: 20px 87px;
+    margin-bottom: 30px;
+    border: 1px solid #011556;
+ }
+ .socials{
+     justify-content: center;
+ }
+ .socials_link{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #d3d3d3;
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+ }
+ .socials_link:hover{
+     text-decoration: none;
+ }
+ .phone:hover{
+    background: #fff;
+    color: #011556;
+    text-decoration: none;
+ }
