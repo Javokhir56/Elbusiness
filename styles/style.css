@@ -49,6 +49,10 @@ header {
     justify-content: center;
     margin: 0 8px;
  }
+ .socials_link img{
+     width: 95px;
+     height: 95px;
+ }
  .socials_link:hover{
      text-decoration: none;
  }
